@@ -123,7 +123,8 @@ body{
 .phone-numbers a:hover,
 .mail:hover,
 .skype:hover,
-.email:hover{
+.email:hover,
+.tel-number:hover{
     text-decoration: underline;
 }
 .mail,
@@ -663,6 +664,7 @@ iframe{
 }
 .send-button:hover{
     background-color: #bcc0c1;
+    cursor: pointer;
 }
 .agree{
     position: absolute;
